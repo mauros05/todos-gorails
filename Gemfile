@@ -49,7 +49,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :test do
-  gem 'capybara', '~> 2.3.0'
+  gem 'capybara', '~> 2.7', '>= 2.7.1'
 end
 
 gem 'rake', '< 11.0'
